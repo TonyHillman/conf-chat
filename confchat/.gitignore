@@ -1,0 +1,8 @@
+# compiled output (rebuilt by build.bat)
+out/
+*.class
+
+# runtime data saved by the app
+confchat-data/
+
+openchord-src

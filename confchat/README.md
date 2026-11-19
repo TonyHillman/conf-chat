@@ -98,8 +98,10 @@ javac -version
 ```
 
 ## Install and build
-```
-Download and install Open Chord from http://open-chord.sourceforge.net/.
+
+Open Chord is already included as a prebuilt library (`lib/openchord.jar`), compiled from the source in `openchord-src/`, so you only need a JDK. There is nothing else to download or install: no separate Open Chord download, no Ant and no log4j, even though the Open Chord website lists them.
+
+> Don't replace the bundled jar with the release from the Open Chord website (http://open-chord.sourceforge.net/). That release crashes when the first node stores anything (`... References.getPredecessor() is null`), and the bundled build does not.
 
 ```
 git clone <your-repo-url>
